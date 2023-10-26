@@ -1,0 +1,314 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(17,13,21);
+    background: linear-gradient(to top bottom , #977DFE, #6878FF);
+    color: #fff;
+}
+
+.circle{
+    background: radial-gradient(farthest-side at 10px 300px, rgb(253, 5, 5), rgba(65, 46, 5, 0.575));
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 140px;
+    margin-left: 100px;
+    border: 2px solid rgb(133,60,52);
+}
+
+.circle2{
+    background: radial-gradient(farthest-side at 14px 500px, darkorange,  rgb(146, 6, 201));
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 2px solid rgb(133,60,52);
+}
+
+.circle3{
+    background: radial-gradient(farthest-side at 14px 500px, rgb(153,119,237),  rgb(116,72,231));
+    height: 180px;
+    width: 90px;
+    margin-top: -170px;
+    margin-left: 1259px;
+    border: none;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    filter: drop-shadow(180px 180px 200px #232aac);
+}  
+ul, nav{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;  
+    align-items: center; 
+    padding: 35px 100px 0;
+}
+
+header nav{
+    display: flex;
+}
+header nav li{
+    margin: 0 15px;
+}
+
+@media screen and (min-width: 480px){
+
+}
+
+@media (max-width:100px){
+    header{
+        padding: 20px 50px;
+    }
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    header h2{
+        margin-bottom: 15px;
+    }
+    header nav li{
+        margin: 0 7px;
+    }
+}
+.chatbot{
+    color: #b3aeae;
+    text-align: center;
+    margin-top: -250px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 18px;
+}
+.h2{
+    font-size: 60px;
+    font-weight: 500px;
+    color: #fff;  
+}
+.h1{
+    background: linear-gradient(90deg, rgb(48,202,205),  rgb(49,100,151));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    font-size: 30px;
+}
+.telegram{
+    margin-top: 4%;
+    margin-left: 28%;
+}
+
+.h3{
+    margin-left: 123px;
+    font-size: 30px;
+}
+.image{
+    margin-top: -370px;
+}
+.icon1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 170px;
+    line-height: 50px;
+    background: linear-gradient( rgb(89, 92, 95),  rgb(175, 175, 187));
+    color: rgb(24,200,255);
+    margin-left: 70%;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+.icon2{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 170px;
+    line-height: 50px;
+    background: linear-gradient( rgb(89, 92, 95),  rgb(31,31,34));
+    color: rgb(34, 77, 92);
+    margin-left: -860px;
+    margin-bottom: 200px;
+    font-size: 30px;
+}  
+.whatsapp{
+    margin-top: 4%;
+    margin-left: 0%;
+}
+.h4{
+    margin-left: 123px;
+    font-size: 30px;
+}
+.image2{
+    margin-top: -370px;
+}
+.icon3{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 170px;
+    line-height: 50px;
+    background: linear-gradient( rgb(89, 92, 95),  rgb(175, 175, 187));
+    color: rgb(24,200,255);
+    margin-left: 70%;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+.icon4{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 170px;
+    line-height: 50px;
+    background: linear-gradient( rgb(89, 92, 95),  rgb(31,31,34));
+    color: rgb(34, 77, 92);
+    margin-left: -860px;
+    margin-bottom: 200px;
+    font-size: 30px;
+}  
+.download{
+font-weight: 700;
+margin-left: 19%;
+font-size: 40px;
+font-weight: 800;
+}
+.hdng{
+    margin-left: -25%;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.paragraph2{
+    margin-left: -25%;
+    margin-top: 20px;
+    color: rgb(97,100,120);
+}
+.google{
+    margin-top: 25px;
+    margin-left: -25%;
+}
+.footer1{
+   margin-left: -39%;
+   margin-top: 100px;
+   border-width: 1px;
+   padding: 50px 15px 10px;
+   border-top: 1px solid #333;
+   color: #777;
+   margin-right: 10px;
+   
+}
+.mob{
+    margin-left: 60%;
+    margin-top: -30%;
+    filter: drop-shadow(30px 50px 90px #232aac);
+}
+
+.accordion{
+    width: 100px;
+    max-width: 750px;
+   margin-left: -90px;
+    margin-top: 40px;
+ }
+
+.accordion li{
+    list-style: none;
+    width: 800px;
+    padding: 5px;;
+} 
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq{
+    margin-top: 40px;
+}
+.faq h2{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.footer1{
+    margin-left: -25%;
+    margin-top: 12%;
+    color: rgb(97,100,120);
+}
+.footer-heading{
+    background: linear-gradient(90deg, rgb(42, 195, 197),  rgb(47, 109, 172));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    font-size: 25px;
+}
+.input{
+    padding: 10px;
+    width: 25%;
+    border-radius: 7px;
+    border: 1px solid rgb(42, 195, 197);
+    background-color: rgb(30,40,52);
+    color: rgb(97,100,120);
+}
+.footer2{
+    margin-left: 60%;
+    margin-top: -25%;
+    color: rgb(97,100,120);
+}
